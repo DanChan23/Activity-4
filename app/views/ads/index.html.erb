@@ -1,0 +1,16 @@
+<table border = "1">
+	<tr>
+		<td>Name
+		</td>
+
+		<td>Price
+		</td>
+	</tr>
+
+	<% @all_ads.each do |one_ad| %>
+	<tr>
+		<td><%= one_ad.name %></td>
+		<td><%= one_ad.price %></td>
+	</tr>
+	<% end %>
+</table>
